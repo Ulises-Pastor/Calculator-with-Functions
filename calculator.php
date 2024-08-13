@@ -2,11 +2,11 @@
 //Calculator with functions
 
 //Enter two values
-$value1 = 10;
-$value2 = 20;
+$value1 = 4;
+$value2 = 2;
 
-//Enter an operation (addition, subtraction, multiplication, division)
-$operation = "subtraction";
+//Enter an operation (addition, subtraction, multiplication, division, power)
+$operation = "power";
 
 function addition($val1, $val2){
     return $val1 + $val2;
@@ -24,6 +24,10 @@ function division($val1, $val2){
     return $val1 / $val2;
 }
 
+function power($val1, $val2){
+    return $val1 ** $val2;
+}
+
 $result = 0;
 
 switch ($operation) {
@@ -38,6 +42,9 @@ switch ($operation) {
         break;
     case "division":
         $result = division($value1, $value2);
+        break;
+    case "power":
+        $result = power($value1, $value2);
         break;
 }
 
