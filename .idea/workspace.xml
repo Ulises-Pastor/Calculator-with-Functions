@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bd2cb1a-959d-4791-9064-4ba4de91ddd7" name="Changes" comment="Calculator using functions">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/calculator.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1723570438847</updated>
       <workItem from="1723570439772" duration="3468000" />
-      <workItem from="1723573955389" duration="688000" />
+      <workItem from="1723573955389" duration="1348000" />
     </task>
     <task id="LOCAL-00001" summary="Calculator using functions">
       <option name="closed" value="true" />
